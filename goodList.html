@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>商品列表-英雄联盟周边商城</title>
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/goodList.css">
+<link rel="stylesheet" href="css/lkq-common.css">
+<link rel="stylesheet" href="./css/sidebar.css">
+</head>
+<!-- 头部 -->
+<div class="lkq-top-bar">
+    <div class="lkq-top_0">
+        <div class="lkq-top_1">
+            <div class="lkq-top_2">
+                <div class="lkq-top lkq-Layout">
+                    <!-- 顶部 -->
+                    <div class="lkq-top-info clearfix">
+                        <!-- logo -->
+                        <div class="lkq-logo">
+                            <a href="#">
+                                <h1 class="lkq-ico-comm">聚城品</h1>
+                            </a>
+                        </div>
+                        <div class="lkq-solgan lkq-ico-comm">可以触摸的欢乐时光</div>
+                        <!-- 购物车 -->
+                        <div class="lkq-cart1">
+                            <a href="./shopCart.html" class="lkq-cartbox">
+                                <i class="lkq-ico-comm lkq-cart2"></i>
+                                <span>购物车<div class="lkq-cart-num">0</div></span>
+                            </a>
+                        </div>
+                        <!-- 登陆 -->
+                        <div class="lkq-loginbar">
+                            <!-- 登陆前 -->
+                            <div class="lkq-unlogin">
+                                <i class="lkq-person lkq-ico-comm"></i>
+                                <a href="#">立即登陆</a>
+                            </div>
+                            <!-- 登陆后 -->
+                            <div class="lkq-Land">
+                                <p>欢迎光临 <span class="lkq-name"></span></p>
+                                <!-- 登陆后的菜单 -->
+                                <div class="lkq-menu">
+                                    <div class="lkq-arrow"></div>
+                                    <ul>
+                                        <li>
+                                            <i class="lkq-order1 lkq-ico-comm"></i>
+                                            <span>订单管理</span>
+                                        </li>
+                                        <li>
+                                            <i class="lkq-order2 lkq-ico-comm"></i>
+                                            <span>地址管理</span>
+                                        </li>
+                                        <li>
+                                            <i class="lkq-order3 lkq-ico-comm"></i>
+                                            <span>优惠卡劵</span>
+                                        </li>
+                                        <li>
+                                            <i class="lkq-order4 lkq-ico-comm"></i>
+                                            <span>我的收藏</span>
+                                        </li>
+                                        <li>
+                                            <i class="lkq-order5 lkq-ico-comm"></i>
+                                            <span>订阅管理</span>
+                                        </li>
+                                        <li>
+                                            <i class="lkq-order6 lkq-ico-comm"></i>
+                                            <span>领取中心</span>
+                                        </li>
+                                        <li class="lkq-list">
+                                            <i class="lkq-order7 lkq-ico-comm"></i>
+                                            <span>退出登陆</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 搜索 -->
+                        <div class="lkq-search">
+                            <a href="#" class="lkq-search1 lkq-ico-comm"></a>
+                            <input type="text" placeholder="请输入想要找的宝贝" class="lkq-txt">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 导航 -->
+        <div class="lkq-top-head">
+            <div class="lkq-top-head2">
+                <div class="lkq-top-menu clearfix lkq-Layout">
+                    <ul>
+                        <li>
+                            <a href="./lkq-homepage.html" class="lkq-ico-comm">首页</a>
+                        </li>
+                        <li>
+                            <a href="#" class="lkq-ico-comm">限时折扣</a>
+                        </li>
+                        <li>
+                            <a href="#" class="lkq-ico-comm">聚豆抵扣</a>
+                        </li>
+                        <li>
+                            <a href="#" class="lkq-ico-comm">定制专区</a>
+                        </li>
+                        <li>
+                            <a href="#" class="lkq-ico-comm">聚发现</a>
+                        </li>
+                    </ul>
+                    <div class="lkq-all">
+                        <span>全部商品分类</span>
+                        <i class="lkq-arrbot lkq-ico-comm"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 子菜单 -->
+        <div class="lkq-Submenu">
+            <div class="lkq-Layout">
+                <ul class="lkq-submenu-ul">
+                    <li class="lkq-submenu-li">
+                        <a href="#">
+                            <img src="images/header/img01.png" alt="">
+                            <p>服饰鞋帽</p>
+                        </a>
+                        <ul class="lkq-class-list">
+                            <li>卫衣/外套</li>
+                            <li>T恤</li>
+                            <li>袜子</li>
+                            <li>裤子</li>
+                            <li>鞋子</li>
+                            <li>帽子</li>
+                            <li>服饰配件</li>
+                        </ul>
+                    </li>
+                    <li class="lkq-submenu-li">
+                        <a href="#">
+                            <img src="images/header/img02.png" alt="">
+                            <p>玩具毛绒</p>
+                        </a>
+                        <ul class="lkq-class-list">
+                            <li>公仔</li>
+                            <li>抱枕</li>
+                            <li>手办</li>
+                            <li>雕塑</li>
+                        </ul>
+                    </li>
+                    <li class="lkq-submenu-li">
+                        <a href="#">
+                            <img src="images/header/img03.png" alt="">
+                            <p>数码配件</p>
+                        </a>
+                        <ul class="lkq-class-list">
+                            <li>手机壳</li>
+                            <li>充电宝</li>
+                            <li>鼠标垫/鼠标</li>
+                            <li>U盘</li>
+                            <li>数据线</li>
+                            <li>打火机</li>
+                            <li>无线充电器</li>
+                        </ul>
+                    </li>
+                    <li class="lkq-submenu-li">
+                        <a href="#">
+                            <img src="images/header/img04.png" alt="">
+                            <p>生活用品</p>
+                        </a>
+                        <ul class="lkq-class-list">
+                            <li>杯子</li>
+                            <li>钥匙扣</li>
+                            <li>伞</li>
+                            <li>耳罩/眼罩</li>
+                            <li>美妆个护</li>
+                            <li>其他</li>
+                        </ul>
+                    </li>
+                    <li class="lkq-submenu-li">
+                        <a href="#">
+                            <img src="images/header/img05.png" alt="">
+                            <p>箱包收纳</p>
+                        </a>
+                        <ul class="lkq-class-list">
+                            <li>双肩包</li>
+                            <li>单肩包</li>
+                            <li>收纳包</li>
+                        </ul>
+                    </li>
+                    <li class="lkq-submenu-li">
+                        <a href="#">
+                            <img src="images/header/img06.png" alt="">
+                            <p>首饰配饰</p>
+                        </a>
+                        <ul class="lkq-class-list">
+                            <li>手链</li>
+                            <li>项链</li>
+                            <li>挂件</li>
+                            <li>戒指</li>
+                            <li>其他</li>
+                        </ul>
+                    </li>
+                    <li class="lkq-submenu-li">
+                        <a href="#">
+                            <img src="images/header/img07.png" alt="">
+                            <p>文具图书</p>
+                        </a>
+                        <ul class="lkq-class-list">
+                            <li>笔记本</li>
+                            <li>胶带/贴纸</li>
+                            <li>文件夹</li>
+                        </ul>
+                    </li>
+                    <li class="lkq-submenu-li">
+                        <a href="#">
+                            <img src="images/header/img08.png" alt="">
+                            <p>休闲零食</p>
+                        </a>
+                        <ul class="lkq-class-list">
+                            <li>糖/巧克力</li>
+                        </ul>
+                    </li>
+                    <li class="lkq-submenu-li">
+                        <a href="#">
+                            <img src="images/header/img09.png" alt="">
+                            <p>海报艺术</p>
+                        </a>
+                        <ul class="lkq-class-list">
+                            <li>画册</li>
+                            <li>海报</li>
+                        </ul>
+                    </li>
+                    <li class="lkq-submenu-li">
+                        <a href="#">
+                            <img src="images/header/img10.png" alt="">
+                            <p>其他</p>
+                        </a>
+                        <ul class="lkq-class-list">
+                            <li>纪念币</li>
+                            <li>礼盒</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-main">
+    <div class="main">
+        <div class="comm-tit">
+            <a href="###">商城首页&gt;</a>
+            <a href="###">雕塑手办&gt;</a>
+            <em>卡莎1/4大型高端雕塑</em>
+        </div>
+        <div class="product-intro clearfix">
+            <div class="product-left">
+                <div class="product-imgs product-imgSmall">
+                    <!-- <div class="i-mark">
+                        <span>预售</span>
+                    </div>
+                    <img src="./images/yh-goodList/ia_100000010.jpg" alt=""> -->
+                </div>
+                <div class="product-imgs product-imgBig">
+                    <div class="product-acive">
+                        <!-- <div class="i-mark">
+                            <span>预售</span>
+                        </div>
+                        <img src="./images/yh-goodList/ia_100000581.jpg" alt=""> -->
+                    </div>
+                </div>
+                <div class="picdetails">
+                    <!-- <ul class="clearfix">
+                        <li class="active" data-num="0">
+                            <img src="./images/yh-goodList/ia_100000010.jpg" alt="">
+                        </li>
+                        <li data-num="1">
+                            <img src="./images/yh-goodList/ia_100000011.jpg" alt="">
+                        </li>
+                        <li data-num="2">
+                            <img src="./images/yh-goodList/ia_100000012.jpg" alt="">
+                        </li>
+                        <li data-num="3">
+                            <img src="./images/yh-goodList/ia_100000013.jpg" alt="">
+                        </li>
+                        <li data-num="4">
+                            <img src="./images/yh-goodList/ia_100000014.jpg" alt="">
+                        </li>
+                    </ul> -->
+                </div>
+            </div>
+            <div class="product-right">
+                <h3 class="prod-tit">
+                    <!-- 卡莎1/4大型高端雕塑 -->
+                </h3>
+                <div class="pord-tips">预计2020年12月前按照支付顺序陆续发货，所有展示图均为示意图，具体请以实物为准。</div>
+                <div class="pord-price clearfix">
+                    ￥<strong>
+                        <!-- 4300.00 --></strong>
+                </div>
+                <div class="pord-detailbox clearfix">
+                    <p class="pord-sold">已售: <span>88</span></p>
+                    <p class="pord-totalcom">累计评价: <span>66</span></p>
+                    <p class="pord-starbox"><i class="ico-detail "></i><span>5.0</span></p>
+                </div>
+                <div class="pord-detailSpec">
+                    <div class="pord-color clearfix">
+                        <p>颜色</p>
+                        <ul>
+                            <!-- <li class="current">
+                                <div class="pord-selbox">彩色</div>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="pord-sellist clearfix">
+                        <p>尺寸</p>
+                        <ul>
+                            <!-- <li class="current">
+                                <div class="pord-selbox">均码</div>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="pord-sellist clearfix">
+                    <p>发货时间</p>
+                    <span class="prod-presale">预计2020年12月29日</span>
+                </div>
+                <div class="pord-num clearfix">
+                    <p>数量</p>
+                    <div class="">
+                        <span class="addNum">-</span>
+                        <input type="text" class="iptNum" value="1">
+                        <span class="rediusNum">+</span>
+                    </div>
+                    <span class="prod-stock">(库存充足)</span>
+                </div>
+                <div class="pord-btn clearfix" code="100000003691">
+                    <a href="###" class="joincart-btn">加入购物车</a>
+                    <a href="###" class="buy-btn">立即购买</a>
+                    <a href="###" class="btn-collectes btn-collect">
+                        <i class="ico-detaill"></i>
+                        <span>收藏</span>
+                    </a>
+                    <a href="###" class="btn-collectes btn-enshrine">
+                        <i class="ico-detaill"></i>
+                        <span>已收藏</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="porduct-detail">
+            <div class="pord-tab">
+                <ul>
+                    <li class="curtab" data-num="0">
+                        商品详情
+                        <i class="i-tabline"></i>
+                    </li>
+                    <li data-num="1">
+                        用户点评
+                        <span>(0)</span>
+                        <i class="i-tabline"></i>
+                    </li>
+                    <li data-num="2">
+                        联系商家
+                        <i class="i-tabline"></i>
+                    </li>
+                </ul>
+            </div>
+            <div class="pordcont pord-detail detailActive">
+                <div class="parameter">
+                    <ul>
+                        <li>
+                            <label class="fl">商品名称：</label>
+                            <span class="fl par-name">卡莎1/4大型高端雕塑</span>
+                        </li>
+                        <li>
+                            <label class="fl">店铺：</label>
+                            <span class="fl">合泰文化</span>
+                        </li>
+                        <li>
+                            <label class="fl">上架时间：</label>
+                            <span class="fl mr70">2019-10-20</span>
+                        </li>
+                        <li>
+                            <label class="fl">商品毛重：</label>
+                            <span class="fl">500g</span>
+                        </li>
+                        <li>
+                            <label class="fl">商城：</label>
+                            <span class="fl mr70">英雄联盟</span>
+                        </li>
+                        <li>
+                            <label class="fl">周边分类：</label>
+                            <span class="fl mr70">雕塑手办/大型雕塑 </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="detailbox detailActive">
+                    <p><img title="ia_100000015.jpg" src="./images/yh-goodList/ia_100000015.jpg"></p>
+                    <p><img title="ia_100000015.jpg" src="./images/yh-goodList/ia_100000016.jpg"></p>
+                    <p><img title="ia_100000015.jpg" src="./images/yh-goodList/ia_100000017.jpg"></p>
+                    <p><img title="ia_100000015.jpg" src="./images/yh-goodList/ia_100000015.jpg"></p>
+                    <p><img title="ia_100000015.jpg" src="./images/yh-goodList/ia_100000018.jpg"></p>
+                    <p><img title="ia_100000015.jpg" src="./images/yh-goodList/ia_100000019.jpg"></p>
+                    <p><img title="ia_100000015.jpg" src="./images/yh-goodList/ia_100000020.jpg"></p>
+                    <p><img title="ia_100000015.jpg" src="./images/yh-goodList/ia_100000021.jpg"></p>
+                    <p><img title="ia_100000015.jpg" src="./images/yh-goodList/ia_100000022.jpg"></p>
+                    <p><img title="ia_100000015.jpg" src="./images/yh-goodList/ia_100000023.jpg"></p>
+                    <p><img title="ia_100000015.jpg" src="./images/yh-goodList/ia_100000024.jpg"></p>
+                    <p><img title="ia_100000015.jpg" src="./images/yh-goodList/ia_100000025.jpg"></p>
+                    <p><img title="ia_100000015.jpg" src="./images/yh-goodList/ia_100000026.jpg"></p>
+                    <p><img title="ia_100000015.jpg" src="./images/yh-goodList/ia_100000027.jpg"></p>
+                    <p><img title="ia_100000015.jpg" src="./images/yh-goodList/ia_100000028.jpg"></p>
+                    <p><img title="ia_100000015.jpg" src="./images/yh-goodList/ia_100000029.jpg"></p>
+                    <p><br></p>
+                </div>
+            </div>
+            <div class="pordcont pord-comment">
+                <div class="all-comment clearfix">
+                    <section class="rating">
+                        <span class="">☆</span>
+                        <span>☆</span>
+                        <span>☆</span>
+                        <span>☆</span>
+                        <span>☆</span>
+                    </section>
+
+
+                    <!-- <span class="fl">玩家综合评分：</span>
+                    <span class="fl pord-starall"><i class="ico-detail"></i></span>
+                    <span class="fl all-point">0.0</span> -->
+                </div>
+            </div>
+            <!-- tab切换 -->
+            <div class="pordcont pord-contact">
+                <dl class="contact-company">
+                    <dt>商家：合泰文化</dt>
+                </dl>
+                <dl class="contact-method">
+                    <dt>商家联系方式</dt>
+                    <dd>
+                        <div>电话：0755-25727866</div>
+                        <div>ＱＱ：800016781</div>
+                        <div>微信：暂无</div>
+                        <div class="contact-service"><a target="_blank" href="javascript:;"
+                                id="onlineServiceDetail619">联系客服</a></div>
+                    </dd>
+                </dl>
+                <dl class="contact-time">
+                    <dt>商家服务时间</dt>
+                    <dd>
+                        <div>在线时间：周一至周日（节假日均可），每天上午09:00-晚上24:00</div>
+                        <div class="concat-notice"></div>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 底部 -->
+<div class="lkq-footer">
+    <div class="lkq-Layout clearfix">
+        <a href="###" title="道聚城" class="lkq-footer-djc">
+            <img src="images/footer/01.png" alt="">
+        </a>
+        <ul class="lkq-footer-info">
+            <li>
+                <a href="###">
+                    <span class="lkq-ic01 lkq-comm-top"></span>
+                    配送方式
+                </a>
+            </li>
+            <li>
+                <a href="###">
+                    <span class="lkq-ic02 lkq-comm-top"></span>
+                    常见操作
+                </a>
+            </li>
+            <li>
+                <a href="###">
+                    <span class="lkq-ic03 lkq-comm-top"></span>
+                    售后服务
+                </a>
+            </li>
+            <li>
+                <a href="###">
+                    <span class="lkq-ic04 lkq-comm-top"></span>
+                    关于我们
+                </a>
+            </li>
+            <li>
+                <a href="###">
+                    <span class="lkq-ic05 lkq-comm-top"></span>
+                    购物指南
+                </a>
+            </li>
+        </ul>
+        <ul class="lkq-footer-code">
+            <li>
+                <img src="images/footer/02.jpg" alt="">
+                <p>聚城品公众号</p>
+            </li>
+            <li>
+                <img src="images/footer/03.jpg" alt="">
+                <p>道聚城公众号</p>
+            </li>
+            <li class="lkq-pr0">
+                <img src="images/footer/04.png" alt="">
+                <p>掌上道聚城</p>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- 版权 -->
+<div class="lkq-footer_ied">
+    <div class="lkq-ied">
+        <p>
+            <a href="###">腾讯互动娱乐</a>
+            |
+            <a href="###"> 服务条款</a>
+            |
+            <a href="###"> 腾讯游戏隐私保护指引</a>
+            |
+            <a href="###"> 广告服务</a>
+            |
+            <a href="###"> 腾讯游戏招聘</a>
+            |
+            <a href="###"> 腾讯游戏客服</a>
+            |
+            <a href="###"> 游戏地图 </a>
+            |
+            <a href="###"> 成长守护平台 </a>
+            |
+            <a href="###"> 商务合作 </a>
+            |
+            <a href="###"> 网站导航 </a>
+        </p>
+        <p>COPYRIGHT © 1998 – 2019 TENCENT. ALL RIGHTS RESERVED.</p>
+        <p>
+            <a href="###">腾讯公司 版权所有</a>
+        </p>
+    </div>
+</div>
+<!-- 登陆模板 -->
+<div class="lkq-login">
+    <div class="lkq-login_1">
+        <div class="lkq-login-btn">
+            <button class="lkq-btn1 lkq-btn">登陆</button>
+            <button class="lkq-btn2 lkq-btn">注册</button>
+            <button class="lkq-btn3">X</button>
+        </div>
+        <div class="lkq-form">
+            <span>昵称密码登陆</span>
+            <h4 class="lkq-con1"></h4>
+            <div class="lkq-box">
+                <input type="text" class="lkq-text lkq-user1" placeholder="昵称">
+            </div>
+            <div class="lkq-box">
+                <input type="text" class="lkq-text lkq-pass1" placeholder="密码">
+            </div>
+            <div class="lkq-remember">
+                记住密码 <input type="checkbox" name="sub" class="lkq-check"><br>
+            </div>
+            <input type="button" value="登陆" name="login" class="lkq-lands">
+        </div>
+        <div class="lkq-register">
+            <span>输入昵称密码注册</span>
+            <h4 class="lkq-con2"></h4>
+            <div class="lkq-box">
+                <input type="text" class="lkq-text lkq-user2" placeholder="昵称">
+            </div>
+            <div class="lkq-box">
+                <input type="text" class="lkq-text lkq-pass2" placeholder="密码">
+            </div>
+            <input type="button" value="注册" name="add" class="lkq-reg">
+        </div>
+    </div>
+</div>
+
+
+
+<!--提示弹出框 -->
+<div class="alert_panel">
+    <div class="alert_panelTop">
+        <h5>温馨提示</h5>
+        <span class="alert_panelOmit">×</span>
+    </div>
+    <div class="alert_panelBottom">
+        <p>此商品限量单次仅能购买5个！</p>
+        <span class="alert_panelAffirm">确定</span>
+    </div>
+</div>
+<!-- 购物车提醒 -->
+<div class="popup">
+    <span class="popup-close">×</span>
+    <div class="popup-main">
+        <h4>购物车提醒</h4>
+        <div class="popup-con">
+            <div class="popup-info clearfix">
+                <i class="fl comicon i-tick"></i>
+                <div class="fl popup-tip" id="blk_popup_detail_cart_msg">
+                    <p class="tip-success">商品已成功添加到购物车!</p>
+                </div>
+            </div>
+            <div class="popup-btnbox">
+                <a href="./shopCart.html" class="fl popup-btn btn-sure mr20 gotocart">确认</a>
+                <a href="###" class="fl popup-btn goonbuy">继续购物</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 侧栏小工具 -->
+<div class="fixedenav">
+    <a class="fixedlink myorder" title="我的订单" href="#">
+        <i class="yh-comicon navico-order"></i>
+        <span>我的<br>订单</span>
+    </a>
+    <a class="fixedlink myaddress" title="我的地址" href="#">
+        <i class="yh-comicon navico-address"></i>
+        <span>我的<br>地址</span>
+    </a>
+    <a class="fixedlink mycart" title="我的购物车">
+        <i class="yh-comicon navico-cart"></i>
+        <span>购<br>物<br>车</span>
+        <i class="yh-comicon navico-cartnum">0</i>
+    </a>
+    <a class="fixedlink myservice" title="咨询" href="./Chatbot.html">
+        <i class="yh-comicon navico-service"></i>
+        <span>咨询</span>
+    </a>
+</div>
+<div class="topnav">
+    <i class="comicon btn-top"></i>
+</div>
+
+<body>
+   
+</body>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/goodList.js"></script>
+<script src="js/lkq-ajax-cookie.js"></script>
+<script src="./js/lkq-common.js"></script>
+<script src="./js/sidebar.js"></script>
+
+</html>

@@ -1,0 +1,361 @@
+.continue{
+    width: 1280px;
+    margin: 0 auto;
+}
+.wrap{
+    background: #fafafa url(../images/yh-shopCart/bg-wrap.jpg) no-repeat top center;
+}
+.myCart{
+    padding: 84px 0;
+}
+.myCart-tit{
+    background: #fff;
+}
+.myCart-tit p{
+    float: left;
+    font-size: 16px;
+    color: #666666;
+    line-height: 56px;
+}
+.myCart-tit p:nth-child(1){
+    width: 150px;
+    margin-left: 235px;
+}
+.myCart-tit p:nth-child(2){
+    width: 150px;
+    margin-left: 300px;
+}
+.myCart-tit p:nth-child(3){
+    width: 100px;
+    margin-left: 40px;
+}
+.myCart-tit p:nth-child(4){
+    width: 150px;
+    margin-left: 50px;
+}
+.myCart-tit p:nth-child(5){
+    width: 100px;
+}
+.myCart-ph{
+    height: 68px;
+}
+.myCart-ph span{
+    float: left;
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #dddddd;
+    margin:27px 0 0 30px;
+}
+.state{
+    background: #ad8c3c url(../images/yh-shopCart/ico-cart.png) no-repeat 4px 2px
+}
+.myCart-ph p{
+    float: left;
+    color: #666666;
+    margin:30px 0 0 30px;
+}
+.myCart-list{
+    margin-bottom: 10px;
+}
+.myCart-list li{
+    position: relative;
+    margin-bottom: 10px;
+    height: 170px;
+    background: #fff;
+}
+.myCart-list li .check{
+    float: left;
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #dddddd;
+    margin:74px 0 0 30px;
+}
+.myCart-list .shoppingImg{
+    float: left;
+    height: 114px;
+    width: 108px;
+    margin-left: 20px;
+    margin:28px 0 0 30px;
+    border: 1px solid #dddddd;
+}
+.myCart-list li .shoppingImg img{
+    display: block;
+    height: 112px;
+    width: 108px;
+}
+.myCart-list .shoppingTitle{
+    width: 300px;
+    float: left;
+    margin-top: 26px;
+    margin-left: 35px;
+}
+.shoppingTitle a{
+    color: #333333;
+}
+.shoppingTitle a p{
+    line-height: 38px;
+    display: inline-block;
+}
+.shoppingTitle a:hover p{
+    text-decoration: underline;
+    color: #f2911e;
+}
+.shoppingTitle strong{
+    line-height: 18px;
+    border: 1px solid #f84a72;
+    color: #f84a72;
+    border-radius: 2px;
+    padding: 0 4px;
+}
+.shoppingTitle span{
+    line-height: 38px;
+    color: #999999;
+}
+.myCart-list li>p{
+    float: left;
+    margin: 40px 0 0 0;
+    width: 150px;
+    color: #999;
+}
+.myCart-list .shoppingPrice{
+    float: left;
+    margin-left: 4px;
+    margin-top: 33px;
+    width: 120px;
+}
+.shoppingPrice span{
+    text-decoration: line-through;
+    line-height: 24px;
+    color: #999999;
+}
+.shoppingPrice p{
+    line-height: 24px;
+    font-weight: bold;
+}
+.myCart-list li .amountBtn{
+    float: left;
+    margin: 33px 0 0 30px;
+    width: 118px;
+    text-align: center;
+}
+.amountBtn span{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
+    color: #666;
+    vertical-align: top;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+.amountBtn .ipt{
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    outline: none;
+    border: 1px solid #ddd;
+    border-width: 1px 0;
+    width: 54px;
+    line-height: 28px;
+
+}
+.myCart-list li .shoppingTotaPrices{
+    float: left;
+    margin-left: 73px;
+    margin-top: 33px;
+    width: 120px;
+}
+.shoppingTotaPrices strong{
+    font-weight: bold;
+    line-height: 34px;
+}
+.myCart-list .shoppingOperate{
+    float: left;
+    margin: 28px 0 0 30px;
+}
+.shoppingOperate span{
+    line-height: 24px;
+}
+.shoppingOperate span:hover{
+    color: #f2911e;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.myCart-compute{
+    height: 72px;
+    background: #fff;
+}
+.myCart-computeInfo{
+    color: #333;
+    float: right;
+    text-align: right;
+}
+.myCart-computeInfo p{
+    line-height: 44px;
+}
+.myCart-computeInfo p strong{
+    color: #f74a4a;
+    font-size: 20px;
+    font-weight: bold;
+}
+.myCart-computeInfo span{
+    display: inline-block;
+    color: #999;
+}
+.mycart-clearing{
+    background: #ad8c3c;
+    width: 150px;
+    font-size: 18px;
+    text-align:center;
+    color: #fff;
+    line-height: 72px;
+    float: right;
+    display: block;
+    margin-left: 30px;
+}
+.myrecomm{
+    text-align: center;
+    padding-bottom: 80px;
+    border-top: 1px solid #eee;
+}
+.myrecomm-h2{
+    height: 35px;
+    font-size: 24px;
+    line-height: 34px;
+    color: #666;
+    font-weight: normal;
+    padding: 0 12px;
+    background: #fafafa;
+    position: relative;
+    top: -15px;
+    display: inline-block;
+    vertical-align: top;
+}
+.myrecomm-hot li{
+    width: 246px;
+    margin: 10px 5px 0;
+    text-align: left;
+    float: left;
+}
+.myrecomm-pic{
+    width: 246px;
+    height: 236px;
+    overflow: hidden;
+}
+.myrecomm-pic a img{
+    height: 236px;
+    width: 246px;
+}
+.myrecomm-box{
+    height: 88px;
+    font-size: 14px;
+    background: #fff;
+    padding: 0 9px;
+    overflow: hidden;
+    position: relative;
+}
+.myrecomm-box p{
+    margin: 14px 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.myrecomm-box strong{
+    font-size: 24px;
+    color: #f74a4a;
+}
+.myrecomm-box span{
+    color: #999;
+    text-decoration: line-through;
+    margin-left: 14px;
+}
+
+.myCart-empty{
+    height: 415px;
+    border-top: 1px dashed #e3e3e3;
+    margin-top: 18px;
+    width: 1280px;
+    text-align: center;
+    padding-top: 30px;
+}
+.myCart-titleCart{
+    padding-top: 38px;
+    font-size: 32px;
+    color: #3a3f4a;
+    font-weight: bold;
+    height: 32px;
+    line-height: 30px;
+}
+.myCart-stroll{
+    color: #f74a4a;
+}
+.myCart-stroll:hover {
+    color: #f2911e;
+    text-decoration: underline;
+}
+.alert_panel{
+    position: fixed;
+    z-index: 9999;
+    left: 50%;
+    top: 50%;
+    margin-top: -75px;
+    margin-left: -190px;
+    border: 1px solid #000;
+    width: 380px;
+    background: #fff;
+    border-radius: 3px;
+    z-index: 999;
+    display: none;
+}
+.alert_panelTop{
+    background: #f5f5f5;
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 3px 3px 0 0;
+    font: 16px/50px Microsoft YaHei;
+    padding: 0 15px 0 20px;
+}
+.alert_panelTop h5{
+    float: left;
+    font-weight: 800;
+}
+.alert_panelOmit{
+    display: block;
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 30px;
+    line-height: 25px;
+    color: #bbb;
+    cursor: pointer;
+}
+.alert_panelOmit:hover{
+    color: red;
+}
+.alert_panelBottom{
+    padding-bottom: 20px;
+}
+.alert_panelBottom p{
+    padding: 10px 20px;
+}
+.alert_panelAffirm{
+    display: block;
+    width: 130px;
+    height: 38px;
+    font: 800 16px/38px Microsoft YaHei;
+    color: #fff;
+    background: #f74a4a;
+    border-radius: 3px;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+}
+.alert_panelAffirm:hover{
+    background: red;
+}
+body .alertBlock{
+    display: block;
+}
+

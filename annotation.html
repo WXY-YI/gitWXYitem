@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>结算页-英雄联盟周边商城</title>
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="./css/annotation.css">
+</head>
+
+<body>
+    <div class="bj-main">
+        <div class="main">
+            <div class="main-title">
+                <p><span>商品订单: </span>624C1F06ABD8CABF73CE9188FC9B26462019N12Y31R</p>
+                <p><span>支付金额: </span><strong class="main-price">￥213</strong></p>
+            </div>
+            <div class="main-ewm">
+                <img src="./images/yh-shopCart/zfewm.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/jquery.min.js"></script>
+<script>
+    var purchasPrice = 0;
+    $.ajax({   //请求数据
+        url: 'data/merge.json',
+        type: 'get',
+        cache: false,
+        dataType: 'json',
+        success: function (json) {
+            var JsonList = JSON.parse(localStorage.getItem('payment'));
+            var result = '';
+            $.each(Object.keys(JsonList), function (index, val) {
+                $.each(json, function (index, item) {
+                    if (item.code === val) {
+                        purchasPrice += parseFloat(item.price * JsonList[item.code]);
+                    }
+                })
+            })
+            $('.main-price').html('￥'+purchasPrice + '.00');
+        }
+    });
+</script>
+
+</html>

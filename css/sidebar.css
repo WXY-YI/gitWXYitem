@@ -1,0 +1,130 @@
+
+.fixedenav{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2000;
+    margin: 0 20px 215px 0;
+    font-size: 14px;
+}
+.fixedenav .fixedlink {
+    display: block;
+    border: 1px solid #dfdfdf;
+    border-bottom: none;
+    background: #fff;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    line-height: 16px;
+    cursor: pointer;
+}
+.fixedenav .fixedlink i {
+    display: block;
+    width: 17px;
+    height: 25px;
+    background-position: -32px -290px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+.yh-comicon {
+    background: url(../images/yh-shopCart/icons.png) no-repeat;
+}
+.fixedenav .myorder:hover i{
+    display: none;
+}
+.fixedenav .myorder:hover span{
+    display: block;
+}
+.fixedenav a span {
+    display: none;
+    margin-top: 6px;
+}
+.fixedenav a:hover {
+    background: #ec4828;
+}
+.fixedenav a .navico-address {
+    background-position: -57px -290px;
+    width: 18px;
+}
+.fixedenav .myaddress:hover i{
+    display: none;
+}
+.fixedenav .myaddress:hover span{
+    display: block;
+}
+.fixedenav .mycart{
+    height: 130px;
+    background: #fff;
+    padding: 0;
+}
+.fixedenav a .navico-cart {
+    background-position: -79px -291px;
+    width: 20px;
+}
+.fixedenav .mycart span {
+    display: block;
+    font-size: 13px;
+    color: #3a3f4a;
+}
+.fixedenav .mycart:hover span{
+    color: #fff;
+}
+.fixedenav a .navico-cartnum {
+    background-position: -108px -287px;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    color: #fff;
+    text-align: center;
+}
+.fixedenav a .navico-service {
+    background-position: -135px -287px;
+    width: 22px;
+}
+.fixedenav .fixedlink.myservice span {
+    margin-top: 13px;
+}
+.fixedenav .myservice:hover i{
+    display: none;
+}
+.fixedenav .myservice:hover span{
+    display: block;
+}
+
+.topnav{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2000;
+    margin: 0 20px 25px 0;
+    border: 1px solid #dfdfdf;
+    background: #f5f5f5;
+    width: 43px;
+    height: 43px;
+    text-align: center;
+    overflow: hidden;
+    display: none;
+}
+.topnav i{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 12px;
+    background: url(../images/yh-shopCart/icons.png) no-repeat 0 -321px;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+.topnav:hover{
+    background: red;
+}
+.topnav:hover i{
+    margin-top: 8px;
+    background-position: 0 -355px;
+    width: 30px;
+}
+body .topnavtitle{
+    display: block;
+}

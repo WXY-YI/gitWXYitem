@@ -1,0 +1,714 @@
+/* 版心 */
+.lkq-Layout {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* 页面开始 */
+html,
+body {
+    width: 100%;
+}
+
+body {
+    min-width: 1280px;
+    background: #f5f5f5;
+}
+
+.lkq-top-bar {
+    width: 100%;
+    height: 156px;
+    position: relative;
+}
+
+.lkq-top_0 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #0e0e0f;
+    z-index: 999;
+}
+
+.lkq-top_fixed {
+    position: fixed;
+    animation: mymove .5s forwards;
+    -webkit-animation: mymove .5s forwards;
+    transition: all 1.5s linear;
+    height: 156px;
+}
+
+.lkq-top_1 {
+    position: relative;
+
+}
+
+.lkq-top_2 {
+    border-bottom: 1px solid #222;
+}
+
+.lkq-top {
+    height: 99px;
+    background: #0e0e0f;
+    color: #f6f7ef;
+    font-size: 16px;
+    z-index: 2;
+}
+
+/* logo */
+.lkq-logo {
+    float: left;
+    margin-left: 10px;
+    margin-top: 18px;
+    /* height: 99px; */
+}
+
+/* 精灵图 */
+.lkq-ico-comm {
+    background: url(../images/Wizardmap/lkq-ico-comm.png) no-repeat;
+}
+
+.lkq-logo h1 {
+    display: block;
+    text-indent: -9999px;
+    width: 158px;
+    height: 60px;
+    background-position: -168px -189px;
+}
+
+.lkq-solgan {
+    text-indent: -9999px;
+    float: left;
+    width: 172px;
+    height: 34px;
+    margin: 38px 0 0 10px;
+    background-position: 0 -28px;
+}
+
+/* 搜索框 */
+.lkq-search {
+    float: right;
+    width: 240px;
+    height: 40px;
+    margin: 39px 20px 0 0;
+    background: #242424;
+    border-radius: 20px;
+    position: relative;
+}
+
+.lkq-search1 {
+    position: absolute;
+    top: 12px;
+    left: 11px;
+    width: 16px;
+    height: 17px;
+    background-position: -80px -3px;
+}
+
+.lkq-search .lkq-txt {
+    margin-left: 33px;
+    width: 205px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    border: none;
+    padding: 0;
+    color: #fff;
+    background: none;
+}
+
+/* 登陆 */
+.lkq-loginbar {
+    margin-top: 39px;
+    margin-right: 40px;
+    max-width: 250px;
+    min-width: 125px;
+    height: 60px;
+    line-height: 40px;
+    font-size: 14px;
+    float: right;
+    position: relative;
+}
+
+/* 登陆前隐藏开关 */
+.lkq-unlogin {
+    margin-left: 43px;
+    /* display: none; */
+}
+
+.lkq-person {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin-top: -2px;
+    vertical-align: middle;
+    background-position: 0 -279px;
+}
+
+.lkq-unlogin a {
+    color: #f6f7ef;
+}
+
+/* 登陆后 */
+.lkq-Land {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    color: red;
+    cursor: pointer;
+    display: none;
+    width: 130px;
+    height: 50px;
+}
+
+.lkq-Land span {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    width: 69px;
+
+}
+
+.lkq-Land:hover .lkq-menu {
+    display: block;
+}
+
+/* 登陆框 */
+.lkq-login {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -311px;
+    margin-top: -209px;
+    width: 622px;
+    height: 518px;
+    background: #eee;
+    z-index: 99999;
+    display: none;
+}
+
+.lkq-login_1 {
+    position: relative;
+}
+
+.lkq-login-btn {
+    width: 100%;
+    height: 50;
+    background: #ccc;
+}
+
+.lkq-btn {
+    float: left;
+    width: 311px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.lkq-btn1 {
+    background: #31a4f6;
+}
+
+.lkq-btn2 {
+    background: #4ab218;
+}
+
+.lkq-btn3 {
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #333;
+    background: #4ab218;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* 登陆 */
+.lkq-form {
+    position: absolute;
+    top: 100px;
+    left: 174px;
+    text-align: center;
+}
+
+.lkq-form span {
+    display: block;
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+.lkq-form h4 {
+    color: red;
+    font-size: 14px;
+}
+
+.lkq-box {
+    width: 272px;
+    height: 42px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.lkq-text {
+    width: 258px;
+    height: 18px;
+    padding: 10px 0 10px 10px;
+    line-height: 18px;
+    color: #333;
+    border: none;
+    font-size: 16px;
+    background: #eee;
+}
+
+.lkq-lands {
+    width: 272px;
+    height: 42px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #86ce2f;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* 注册 */
+.lkq-register {
+    position: absolute;
+    top: 100px;
+    left: 174px;
+    text-align: center;
+    display: none;
+}
+
+.lkq-register h4 {
+    color: blue;
+    font-size: 14px;
+}
+
+.lkq-register span {
+    display: block;
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+.lkq-reg {
+    width: 272px;
+    height: 42px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #3487ff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* 记住密码 */
+.lkq-remember {
+    margin: 20px 0;
+    text-align: left;
+}
+
+/* 登陆后的菜单 */
+.lkq-menu {
+    position: absolute;
+    top: 45px;
+    left: -17px;
+    width: 132px;
+    background: #fff;
+    z-index: 100;
+    border-radius: 8px;
+    display: none;
+}
+
+.lkq-menu .lkq-ico-comm {
+    display: block;
+    width: 15px;
+    height: 17px;
+    margin: 9px 9px 0 23px;
+    float: left;
+}
+
+.lkq-menu ul {
+    margin-top: 10px;
+}
+
+.lkq-list {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.lkq-menu ul li {
+    color: #333;
+    font-size: 14px;
+    line-height: 34px;
+    cursor: pointer;
+}
+
+.lkq-menu ul li:hover {
+    background: #f1f1f1;
+}
+
+.lkq-order1 {
+    background-position: -162px -2px;
+}
+
+.lkq-order2 {
+    background-position: -132px -3px;
+}
+
+.lkq-order3 {
+    background-position: -114px -2px;
+}
+
+.lkq-order4 {
+    background-position: -132px -3px;
+}
+
+.lkq-order5 {
+    background-position: -95px -64px;
+}
+
+.lkq-order6 {
+    background-position: -119px -64px;
+}
+
+.lkq-order7 {
+    background-position: -28px -64px;
+}
+
+/* 三角形 */
+.lkq-arrow {
+    position: absolute;
+    top: -10px;
+    left: 67px;
+    margin-left: -9px;
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+
+/* 购物车 */
+.lkq-cart1 {
+    float: right;
+    margin-top: 47px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #f6f7ef;
+    width: 90px;
+    position: relative;
+}
+
+.lkq-cart2 {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-position: -2px -63px;
+}
+
+.lkq-cart1 span {
+    display: inline-block;
+    color: #f6f7ef;
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+.lkq-cart-num {
+    display: inline-block;
+    height: 24px;
+    font-size: 14px;
+    color: #ffc933;
+}
+
+/* 导航栏 */
+.lkq-top-head {
+    position: relative;
+
+}
+
+.lkq-top-menu {
+    background: #0e0e0f;
+}
+
+.lkq-top-menu ul {
+    float: left;
+}
+
+.lkq-top-menu ul li {
+    float: left;
+    width: 129px;
+    height: 100%;
+    line-height: 56px;
+}
+
+.lkq-top-menu ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    text-align: center;
+    color: #a6a6a6;
+    background-position: 130px 56px;
+}
+
+.lkq-top-menu ul li a:hover {
+    background-position: -28px -92px;
+}
+
+/* 全部商品 */
+.lkq-all {
+    float: right;
+    height: 100%;
+    line-height: 56px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+.lkq-arrbot {
+    margin-left: 7px;
+    display: inline-block;
+    width: 10px;
+    height: 12px;
+    background-position: -100px -2px;
+}
+
+/* .lkq-all:hover .lkq-arrbot {
+    background-position: -66px -2px;
+} */
+
+/* 子菜单 */
+.lkq-Submenu {
+    color: #000;
+    position: absolute;
+    top: 156px;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    z-index: 99;
+    background: #fff;
+    display: none;
+}
+
+.lkq-Submenu .lkq-submenu-ul {
+    display: table;
+    margin: 25px auto 0;
+    padding-bottom: 20px;
+}
+
+.lkq-Submenu .lkq-submenu-li {
+    padding: 0 10px;
+    width: 80px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.lkq-submenu-li a {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    border-bottom: 4px solid #e3e3e3;
+}
+
+.lkq-submenu-li img {
+    padding-bottom: 20px;
+
+}
+
+.lkq-submenu-li p {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.lkq-submenu-li .lkq-class-list {
+    margin-top: 15px;
+}
+
+.lkq-class-list li {
+    line-height: 30px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+
+.lkq-class-list li:hover {
+    background: #eee;
+}
+
+/* 底部 */
+.lkq-footer {
+    background: #1d1d1d;
+    color: #777;
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: 40px;
+    /* overflow: hidden; */
+}
+
+.lkq-footer .lkq-Layout {
+    border-bottom: 1px solid #606060;
+    position: relative;
+    background: #1d1d1d;
+}
+
+.lkq-footer .lkq-footer-djc {
+    width: 213px;
+    height: 64px;
+    position: absolute;
+    top: 51px;
+    left: 80px;
+}
+
+.lkq-footer-djc img {
+    display: block;
+    width: 169px;
+    height: 64px;
+}
+
+.lkq-footer-info {
+    float: left;
+    height: 135px;
+    width: 395px;
+    font-size: 14px;
+    line-height: 30px;
+    margin: 50px 0 0 317px;
+    border-left: 1px solid #606060;
+    border-right: 1px solid #606060;
+}
+
+.lkq-footer-info li {
+    width: 118px;
+    height: 55px;
+    padding: 0 38px;
+    float: left;
+}
+
+/* 精灵图 */
+.lkq-comm-top {
+    background: url(../images/Wizardmap/lkq-comm-top.png) no-repeat;
+}
+
+.lkq-ic01,
+.lkq-ic02,
+.lkq-ic03,
+.lkq-ic04,
+.lkq-ic05 {
+    width: 30px;
+    height: 30px;
+    margin-right: 9px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.lkq-footer-info li a {
+    display: inline-block;
+    vertical-align: top;
+    color: #a8a8a8;
+}
+
+.lkq-footer-info li a:hover {
+    color: #fff;
+}
+
+.lkq-ic01 {
+    background-position: 0 -61px;
+}
+
+.lkq-ic02 {
+    background-position: -90px -61px;
+}
+
+.lkq-ic03 {
+    background-position: -30px -61px;
+}
+
+.lkq-ic04 {
+    background-position: -60px -61px;
+}
+
+.lkq-ic05 {
+    background-position: -120px -61px;
+}
+
+/* 二维码 */
+.lkq-footer-code {
+    line-height: 62px;
+    padding: 50px 0 20px 33px;
+    float: left;
+}
+
+.lkq-footer-code li {
+    float: left;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 45px;
+    text-align: center;
+}
+
+.lkq-footer-code li img {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.lkq-footer-code .lkq-pr0 {
+    padding-right: 0;
+}
+
+/* 底部版权 */
+.lkq-footer_ied {
+    background: #1d1d1d;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 30px 0 40px;
+    text-align: center;
+    color: #777;
+}
+
+.lkq-ied a {
+    color: #777;
+}
+
+.lkq-ied a:hover {
+    color: #fff;
+}
+
+@keyframes mymove {
+    0% {
+        top: -100px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+@-webkit-keyframes mymove {
+    0% {
+        top: -100px;
+    }
+
+    to {
+        top: 0px;
+    }
+}

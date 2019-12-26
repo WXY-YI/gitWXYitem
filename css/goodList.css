@@ -1,0 +1,743 @@
+.bg-main {
+    background: #f5f5f5;
+    font: 14px/26px 'Microsoft Yahei';
+}
+
+.main {
+    width: 1280px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    border: 1px solid #f5f5f5;
+}
+
+.comm-tit {
+    margin: 20px 0 40px;
+    height: 27px;
+    line-height: 27px;
+    /* border: 1px solid #fff; */
+}
+
+.comm-tit a {
+    color: #828282;
+    margin-right: -2px;
+}
+
+.product-intro {
+    padding: 30px 0 35px;
+    min-height: 540px;
+    background: #fff;
+}
+
+.product-left {
+    margin: 0 40px 0 30px;
+    width: 460px;
+    height: 440px;
+    float: left;
+    position: relative;
+}
+
+.product-imgs {
+    position: relative;
+    width: 460px;
+    height: 440px;
+    overflow: hidden;
+    border: 1px solid #f2f2f2;
+}
+
+.product-imgs .i-mark {
+    position: absolute;
+    top: -1px;
+    right: 20px;
+    z-index: 10;
+    padding: 0 10px 7px;
+    width: 28px;
+    height: 40px;
+    background: url(../images/yh-goodList/ia_100000055.png) no-repeat -279px -85px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+
+.product-imgs .i-mark span {
+    text-align: center;
+    line-height: 40px;
+}
+
+.product-imgs img {
+    display: block;
+    width: 458px;
+    height: 438px;
+    cursor: url(../images/yh-goodList/ia_100000000704.png), pointer;
+}
+
+.product-left .product-imgBig {
+    display: none;
+}
+
+.product-left .product-mask {
+    width: 200px;
+    height: 200px;
+    background: rgba(255, 255, 0, 0);
+    position: absolute;
+    z-index: 9999;
+}
+
+.product-left .product-imgBig img {
+    width: 690px;
+    height: 660px;
+    position: absolute;
+}
+
+.picdetails {
+    margin-top: 20px;
+    width: 540px;
+    height: 100px;
+}
+
+.product-left .picdetails ul .active {
+    border: 1px solid #f74a4a;
+}
+
+.product-left .picdetails ul .active img {
+    border: 1px solid #f74a4a;
+}
+
+.product-left .picdetails ul li {
+    float: left;
+    width: 78px;
+    margin-right: 10px;
+    border: 1px solid #f2f2f2;
+}
+
+.product-left .picdetails ul li img {
+    width: 76px;
+    height: 70px;
+    display: block;
+    border: 1px solid #fff;
+}
+
+.product-left .picdetails ul li:hover {
+    border: 1px solid #f74a4a;
+}
+
+.product-left .picdetails ul li:hover img {
+    border: 1px solid #f74a4a;
+}
+
+.product-right {
+    width: 720px;
+    float: left;
+}
+
+.product-right h3 {
+    line-height: 36px;
+    font-size: 28px;
+    color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.product-right .pord-tips {
+    padding: 22px 0 0;
+    font-size: 14px;
+    color: #aaa;
+    line-height: 15px;
+}
+
+.product-right .pord-price {
+    padding: 20px 0 15px;
+    color: #f74f4a;
+    font-size: 30px;
+    line-height: 31px;
+    font-weight: bold;
+}
+
+.product-right .pord-price strong {
+    font-size: 36px;
+}
+
+.pord-detailbox {
+    height: 60px;
+    line-height: 60px;
+    border-top: 1px dashed #eee;
+    border-bottom: 1px dashed #eee;
+    font-size: 14px;
+}
+
+.pord-detailbox p {
+    float: left;
+}
+
+.pord-detailbox p span {
+    color: #333;
+}
+
+.pord-sold {
+    width: 310px;
+    color: #999;
+}
+
+.pord-totalcom {
+    color: #999;
+}
+
+.pord-detailbox .pord-starbox {
+    float: right;
+    font-size: 20px;
+}
+
+.pord-detailbox .pord-starbox span {
+    color: #ffd92c;
+}
+
+
+.pord-starbox i {
+    margin: -4px 6px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 111px;
+    height: 18px;
+    background: url(../images/yh-goodList/ico-detail.png) no-repeat 1px -104px;
+}
+
+.pord-detailSpec>div {
+    margin-top: 10px;
+}
+
+.pord-detailSpec p {
+    color: #888;
+    padding-top: 5px;
+    float: left;
+}
+
+.pord-detailSpec ul {
+    width: 660px;
+    float: left;
+    margin-left: 28px;
+}
+
+.pord-detailSpec ul li {
+    float: left;
+    margin: 0 0 10px 9px;
+    border: 1px solid #ddd;
+    color: #333;
+    text-align: center;
+    line-height: 14px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.pord-detailSpec ul .current {
+    border-color: #f74a4a;
+}
+
+.pord-detailSpec ul li .pord-selbox {
+    padding: 7px 17px;
+    border: 2px solid #f74a4a;
+}
+
+.pord-sellist {
+    margin-top: 10px;
+}
+
+.pord-sellist p {
+    color: #888;
+    padding-top: 5px;
+    float: left;
+}
+
+.pord-sellist span {
+    float: left;
+    padding: 5px 0 0 12px;
+}
+
+.pord-num {
+    margin-top: 10px;
+}
+
+.pord-num>p {
+    padding-top: 10px;
+    color: #888;
+    float: left;
+}
+
+.pord-num>div {
+    float: left;
+    margin-left: 42px;
+}
+
+.pord-num .prod-stock {
+    font-size: 14px;
+    color: #5e6360;
+    padding-left: 10px;
+    line-height: 34px;
+}
+
+.pord-num>div>span {
+    width: 34px;
+    height: 34px;
+    display: block;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 24px;
+    float: left;
+    cursor: pointer;
+}
+
+.pord-num>div .iptNum {
+    width: 58px;
+    height: 32px;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    line-height: 34px;
+    color: #333;
+    display: block;
+    font-size: 14px;
+    cursor: default;
+    float: left;
+}
+
+.pord-btn {
+    margin-top: 25px;
+}
+
+.pord-btn a {
+    display: block;
+    width: 200px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    opacity: 1;
+    float: left;
+}
+
+.pord-btn .joincart-btn {
+    background: #f05335;
+}
+
+.pord-btn .buy-btn {
+    background: #ec4828;
+    margin-left: 30px;
+}
+
+.pord-btn .btn-collectes {
+    margin: 12px 0 0 30px;
+    width: 84px;
+    height: 28px;
+    line-height: 28px;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    font-size: 14px;
+    color: #888;
+    position: relative;
+    text-indent: 16px
+}
+
+.pord-btn .btn-collectes i {
+    position: absolute;
+    top: 7px;
+    left: 14px;
+    z-index: 2;
+    width: 16px;
+    height: 14px;
+    background: url(../images/yh-goodList/ico-detail.png) no-repeat -107px -2px;
+}
+
+.pord-btn .btn-enshrine {
+    display: none;
+}
+
+.pord-btn .btn-enshrine .ico-detaill {
+    left: 9px;
+    background-position: -127px -2px;
+}
+
+.porduct-detail {
+    margin-top: 20px;
+    width: 1280px;
+    background: #fff;
+}
+
+.pord-tab {
+    margin: 0 auto 20px;
+    width: 1220px;
+    height: 71px;
+    border-bottom: 1px solid #eee;
+}
+
+.pord-tab ul {
+    margin: 0 auto;
+    width: 705px;
+}
+
+.pord-tab ul li {
+    float: left;
+    width: 235px;
+    height: 71px;
+    line-height: 71px;
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.porduct-detail .pord-tab ul .curtab .i-tabline {
+    display: block;
+    background: #ec4828;
+    width: 40px;
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -20px;
+}
+
+.pord-detail {
+    display: none;
+}
+
+.porduct-detail .detailActive {
+    display: block;
+}
+
+.pord-detail .parameter {
+    font-size: 14px;
+    color: #777;
+    margin-left: 44px;
+    height: 40px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.pord-detail .parameter ul li {
+    float: left;
+    width: 300px;
+    margin-bottom: 6px;
+}
+
+.fl {
+    float: left;
+}
+
+.pord-detail .parameter .par-name {
+    width: 225px;
+    overflow: hidden;
+    text-overflow: hidden;
+    white-space: nowrap;
+}
+
+.detailbox {
+    text-align: left;
+    padding-bottom: 100px;
+    margin-top: 40px;
+}
+
+.pord-detail .detailbox p img {
+    margin: 0 auto;
+    display: block;
+}
+
+.pord-comment {
+    padding-bottom: 100px;
+    display: none;
+}
+.rating-box {
+	margin-top:100px;
+	text-align:center;
+}
+.rating {
+    direction:rtl;
+    text-align: center;
+}
+.rating>span {
+	display:inline-block;
+	font-size:24px;
+	font-weight:700;
+	position:relative;
+	transition:all .2s;
+}
+.rating>span:hover:before,.rating>span:hover ~ span:before {
+	content:"\2605";
+	color:red;
+	position:absolute;
+}
+.rating>span.active:before {
+	content:"\2605";
+	color:red;
+	position:absolute;
+}
+.pord-comment .all-comment {
+    margin: 35px auto 18px;
+    width: 336px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #333;
+}
+
+.pord-comment .all-comment .pord-starall {
+    height: 24px;
+}
+
+.pord-comment .all-comment .pord-starall i {
+    margin: -5px 10px 0 5px;
+    width: 148px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../images/yh-goodList/ico-detail.png) no-repeat -156px -152px;
+}
+
+.pord-comment .all-comment .all-point {
+    font-size: 28px;
+    color: #ffca11;
+}
+
+.pord-contact {
+    padding-bottom: 100px;
+    display: none;
+}
+
+.pord-contact dl {
+    margin: 0 0 24px 40px;
+    line-height: 1;
+    font-size: 14px;
+}
+
+.pord-contact dl dd {
+    color: #777;
+    line-height: 24px;
+}
+
+.pord-contact dl dt {
+    margin-bottom: 12px;
+    padding-left: 25px;
+    color: #1e1e1e;
+    background: url(../images/yh-goodList/contact.png) no-repeat 0 0;
+    height: 16px;
+    line-height: 16px;
+    background-position: 0 0;
+}
+
+.pord-contact .contact-service {
+    padding-top: 24px;
+}
+
+.pord-contact .contact-service a {
+    display: block;
+    width: 65px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #ededed;
+    border-radius: 2px;
+    color: #777;
+    padding-left: 28px;
+    background: url(../images/yh-goodList/ia_100000065.png) 8px center no-repeat;
+}
+
+.pord-contact .contact-method dt {
+    background-position: 0 -16px;
+}
+
+.pord-contact .contact-time dt {
+    background-position: 0 -33px;
+}
+
+
+/* 弹出提示框 */
+.alert_panel {
+    position: fixed;
+    z-index: 9999;
+    left: 50%;
+    top: 50%;
+    margin-top: -75px;
+    margin-left: -190px;
+    border: 1px solid #000;
+    width: 380px;
+    background: #fff;
+    border-radius: 3px;
+    z-index: 999;
+    display: none;
+}
+
+.alert_panelTop {
+    background: #f5f5f5;
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 3px 3px 0 0;
+    font: 16px/50px Microsoft YaHei;
+    padding: 0 15px 0 20px;
+}
+
+.alert_panelTop h5 {
+    float: left;
+    font-weight: 800;
+}
+
+.alert_panelOmit {
+    display: block;
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 30px;
+    line-height: 25px;
+    color: #bbb;
+    cursor: pointer;
+}
+
+.alert_panelOmit:hover {
+    color: red;
+}
+
+.alert_panelBottom {
+    padding-bottom: 20px;
+}
+
+.alert_panelBottom p {
+    padding: 10px 20px;
+}
+
+.alert_panelAffirm {
+    display: block;
+    width: 130px;
+    height: 38px;
+    font: 800 16px/38px Microsoft YaHei;
+    color: #fff;
+    background: #f74a4a;
+    border-radius: 3px;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.alert_panelAffirm:hover {
+    background: red;
+}
+
+body .alertBlock {
+    display: block;
+}
+
+/* 购物车提醒 */
+
+.popup {
+    display: none;
+    visibility: visible;
+    position: absolute;
+    z-index: 9999;
+    left: 50%;
+    top: 300.6px;
+    margin-left: -280px;
+    margin-top: 0px;
+    border: 1px solid #ec4828;
+    background: #fff;
+    width: 558px;
+    min-height: 298px;
+    height: auto;
+    overflow: hidden;
+}
+
+.popup .popup-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 7px 10px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    background: #ec4828;
+    outline: none;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 20px;
+}
+
+.popup-main {
+    padding: 20px 30px;
+}
+
+.popup-main h4 {
+    font-size: 18px;
+    color: #3a3f4a;
+    text-align: left;
+    font-weight: normal;
+    border-bottom: 1px dashed #e5e5e5;
+    height: 35px;
+}
+
+.popup-con {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.popup-con .popup-info {
+    margin-left: 50px;
+}
+
+.fl {
+    float: left;
+}
+
+.popup-con .popup-info .i-tick {
+    display: block;
+    width: 56px;
+    height: 56px;
+    background: url(../images/yh-goodList/ico-gou.png) no-repeat;
+    background-size: contain;
+}
+
+.popup-con .popup-info .popup-tip {
+    margin-left: 24px;
+    text-align: left;
+}
+
+.popup-con .popup-info .tip-success {
+    color: #f74a4a;
+    font-size: 24px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 50px;
+    margin-bottom: 8px;
+}
+
+.popup-con .popup-btnbox {
+    margin: 28px 0 0 50px;
+}
+
+.popup-con .popup-btnbox .btn-sure:hover {
+    background: #e23131;
+}
+
+.popup-con .popup-btnbox .btn-sure {
+    background: #f74a4a;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.popup-btnbox .popup-btn {
+    width: 180px;
+    height: 48px;
+    background: #fff;
+    border: 1px solid #f74a4a;
+    display: block;
+    text-align: center;
+    line-height: 48px;
+    font-size: 18px;
+    color: #f74a4a;
+}
+
+.popup .popup-con .popup-btnbox .mr20 {
+    margin-right: 20px;
+}

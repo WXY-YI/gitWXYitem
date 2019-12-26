@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>添加订单页-英雄联盟周边商城</title>
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/settleAccounts.css">
+<link rel="stylesheet" href="css/lkq-common.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="lkq-top-bar">
+        <div class="lkq-top_0">
+            <div class="lkq-top_1">
+                <div class="lkq-top_2">
+                    <div class="lkq-top lkq-Layout">
+                        <!-- 顶部 -->
+                        <div class="lkq-top-info clearfix">
+                            <!-- logo -->
+                            <div class="lkq-logo">
+                                <a href="#">
+                                    <h1 class="lkq-ico-comm">聚城品</h1>
+                                </a>
+                            </div>
+                            <div class="lkq-solgan lkq-ico-comm">可以触摸的欢乐时光</div>
+                            <!-- 购物车 -->
+                            <div class="lkq-cart1">
+                                <a href="./shopCart.html" class="lkq-cartbox">
+                                    <i class="lkq-ico-comm lkq-cart2"></i>
+                                    <span>购物车<div class="lkq-cart-num">0</div></span>
+                                </a>
+                            </div>
+                            <!-- 登陆 -->
+                            <div class="lkq-loginbar">
+                                <!-- 登陆前 -->
+                                <div class="lkq-unlogin">
+                                    <i class="lkq-person lkq-ico-comm"></i>
+                                    <a href="#">立即登陆</a>
+                                </div>
+                                <!-- 登陆后 -->
+                                <div class="lkq-Land">
+                                    <p>欢迎光临 <span class="lkq-name"></span></p>
+                                    <!-- 登陆后的菜单 -->
+                                    <div class="lkq-menu">
+                                        <div class="lkq-arrow"></div>
+                                        <ul>
+                                            <li>
+                                                <i class="lkq-order1 lkq-ico-comm"></i>
+                                                <span>订单管理</span>
+                                            </li>
+                                            <li>
+                                                <i class="lkq-order2 lkq-ico-comm"></i>
+                                                <span>地址管理</span>
+                                            </li>
+                                            <li>
+                                                <i class="lkq-order3 lkq-ico-comm"></i>
+                                                <span>优惠卡劵</span>
+                                            </li>
+                                            <li>
+                                                <i class="lkq-order4 lkq-ico-comm"></i>
+                                                <span>我的收藏</span>
+                                            </li>
+                                            <li>
+                                                <i class="lkq-order5 lkq-ico-comm"></i>
+                                                <span>订阅管理</span>
+                                            </li>
+                                            <li>
+                                                <i class="lkq-order6 lkq-ico-comm"></i>
+                                                <span>领取中心</span>
+                                            </li>
+                                            <li class="lkq-list">
+                                                <i class="lkq-order7 lkq-ico-comm"></i>
+                                                <span>退出登陆</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 搜索 -->
+                            <div class="lkq-search">
+                                <a href="#" class="lkq-search1 lkq-ico-comm"></a>
+                                <input type="text" placeholder="请输入想要找的宝贝" class="lkq-txt">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 导航 -->
+            <div class="lkq-top-head">
+                <div class="lkq-top-head2">
+                    <div class="lkq-top-menu clearfix lkq-Layout">
+                        <ul>
+                            <li>
+                                <a href="./lkq-homepage.html" class="lkq-ico-comm">首页</a>
+                            </li>
+                            <li>
+                                <a href="#" class="lkq-ico-comm">限时折扣</a>
+                            </li>
+                            <li>
+                                <a href="#" class="lkq-ico-comm">聚豆抵扣</a>
+                            </li>
+                            <li>
+                                <a href="#" class="lkq-ico-comm">定制专区</a>
+                            </li>
+                            <li>
+                                <a href="#" class="lkq-ico-comm">聚发现</a>
+                            </li>
+                        </ul>
+                        <div class="lkq-all">
+                            <span>全部商品分类</span>
+                            <i class="lkq-arrbot lkq-ico-comm"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 子菜单 -->
+            <div class="lkq-Submenu">
+                <div class="lkq-Layout">
+                    <ul class="lkq-submenu-ul">
+                        <li class="lkq-submenu-li">
+                            <a href="#">
+                                <img src="images/header/img01.png" alt="">
+                                <p>服饰鞋帽</p>
+                            </a>
+                            <ul class="lkq-class-list">
+                                <li>卫衣/外套</li>
+                                <li>T恤</li>
+                                <li>袜子</li>
+                                <li>裤子</li>
+                                <li>鞋子</li>
+                                <li>帽子</li>
+                                <li>服饰配件</li>
+                            </ul>
+                        </li>
+                        <li class="lkq-submenu-li">
+                            <a href="#">
+                                <img src="images/header/img02.png" alt="">
+                                <p>玩具毛绒</p>
+                            </a>
+                            <ul class="lkq-class-list">
+                                <li>公仔</li>
+                                <li>抱枕</li>
+                                <li>手办</li>
+                                <li>雕塑</li>
+                            </ul>
+                        </li>
+                        <li class="lkq-submenu-li">
+                            <a href="#">
+                                <img src="images/header/img03.png" alt="">
+                                <p>数码配件</p>
+                            </a>
+                            <ul class="lkq-class-list">
+                                <li>手机壳</li>
+                                <li>充电宝</li>
+                                <li>鼠标垫/鼠标</li>
+                                <li>U盘</li>
+                                <li>数据线</li>
+                                <li>打火机</li>
+                                <li>无线充电器</li>
+                            </ul>
+                        </li>
+                        <li class="lkq-submenu-li">
+                            <a href="#">
+                                <img src="images/header/img04.png" alt="">
+                                <p>生活用品</p>
+                            </a>
+                            <ul class="lkq-class-list">
+                                <li>杯子</li>
+                                <li>钥匙扣</li>
+                                <li>伞</li>
+                                <li>耳罩/眼罩</li>
+                                <li>美妆个护</li>
+                                <li>其他</li>
+                            </ul>
+                        </li>
+                        <li class="lkq-submenu-li">
+                            <a href="#">
+                                <img src="images/header/img05.png" alt="">
+                                <p>箱包收纳</p>
+                            </a>
+                            <ul class="lkq-class-list">
+                                <li>双肩包</li>
+                                <li>单肩包</li>
+                                <li>收纳包</li>
+                            </ul>
+                        </li>
+                        <li class="lkq-submenu-li">
+                            <a href="#">
+                                <img src="images/header/img06.png" alt="">
+                                <p>首饰配饰</p>
+                            </a>
+                            <ul class="lkq-class-list">
+                                <li>手链</li>
+                                <li>项链</li>
+                                <li>挂件</li>
+                                <li>戒指</li>
+                                <li>其他</li>
+                            </ul>
+                        </li>
+                        <li class="lkq-submenu-li">
+                            <a href="#">
+                                <img src="images/header/img07.png" alt="">
+                                <p>文具图书</p>
+                            </a>
+                            <ul class="lkq-class-list">
+                                <li>笔记本</li>
+                                <li>胶带/贴纸</li>
+                                <li>文件夹</li>
+                            </ul>
+                        </li>
+                        <li class="lkq-submenu-li">
+                            <a href="#">
+                                <img src="images/header/img08.png" alt="">
+                                <p>休闲零食</p>
+                            </a>
+                            <ul class="lkq-class-list">
+                                <li>糖/巧克力</li>
+                            </ul>
+                        </li>
+                        <li class="lkq-submenu-li">
+                            <a href="#">
+                                <img src="images/header/img09.png" alt="">
+                                <p>海报艺术</p>
+                            </a>
+                            <ul class="lkq-class-list">
+                                <li>画册</li>
+                                <li>海报</li>
+                            </ul>
+                        </li>
+                        <li class="lkq-submenu-li">
+                            <a href="#">
+                                <img src="images/header/img10.png" alt="">
+                                <p>其他</p>
+                            </a>
+                            <ul class="lkq-class-list">
+                                <li>纪念币</li>
+                                <li>礼盒</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 主题内容 -->
+    <div class="wrapper">
+        <div class="wrapper-cont continue">
+            <h3>选择收货地址</h3>
+            <div class="address">
+                <ul class="clearfix">
+                    <!-- <li class="addressid" data-num="0">
+                        <span class="address-default">设为默认</span>
+                        <span class="address-user">yyzhz</span>
+                        <p class="address-site">西乡街道西乡镇后瑞村北旧五巷与瑞康路交叉口渔乐圈公寓</p>
+                        <p class="address-postcode">518000</p>
+                        <p class="address-phone">18296223225</p>
+                        <div class="address-tool">
+                            <span class="addressAlter"></span><span class="addressOmit"></span>
+                        </div>
+                    </li>
+                    <li class="addressid" data-num="1">
+                        <span class="address-default">设为默认</span>
+                        <span class="address-user">yyzhz</span>
+                        <p class="address-site">西乡街道西乡镇后瑞村北旧五巷与瑞康路交叉口渔乐圈公寓</p>
+                        <p class="address-postcode">518000</p>
+                        <p class="address-phone">18296223225</p>
+                        <div class="address-tool">
+                            <span class="addressAlter"></span><span class="addressOmit"></span>
+                        </div>
+                    </li> -->
+                    <li class="addition">
+                        <i></i>
+                        <strong>新增收货地址</strong>
+                    </li>
+                </ul>
+            </div>
+            <h3>确认商品信息</h3>
+            <div class="wrapper-goods">
+                <div class="myCart-tit clearfix">
+                    <p>商品信息</p>
+                    <p>单价 (元)</p>
+                    <p>数量</p>
+                    <p>金额 (元)</p>
+                </div>
+                <ul class="myCart-list">
+                    <!-- <li class="clearfix" code="100000021">
+                        <div class="shoppingImg">
+                            <a href="#"><img src="images/ia_100000021.jpg" alt=""></a>
+                        </div>
+                        <div class="shoppingTitle">
+                            <a href="#">
+                                <p>M4A1-雷神 枪模手办</p>
+                            </a>
+                        </div>
+                        <p>枪模: 雷神</p>
+                        <div class="shoppingPrice">
+                            <p>298.00 元</p>
+                        </div>
+                        <div class="amountBtn">
+                            <span>2</span>
+                        </div>
+                        <div class="shoppingTotaPrices">
+                            <strong>596.00 元</strong>
+                        </div>
+                    </li> -->
+                </ul>
+                <div class="remark">
+                    订单备注:
+                    <input type="text" class="rmk">
+                </div>
+            </div>
+        </div>
+        <div class="wrapper-count continue clearfix">
+            <div class="purchase">
+                <ul class="purchas-ul1">
+                    <li><span class="purchas-quantity">0</span>件商品,商品总价</li>
+                    <li>VIP抵扣</li>
+                    <li>优惠券</li>
+                    <li>聚豆抵扣</li>
+                    <li>运费:</li>
+                    <li>实付款 (含运费)</li>
+                    <li class="purchas-site"></li>
+                </ul>
+                <ul class="purchas-ul2">
+                    <li><span class="purchas-price">0.00</span> 元</li>
+                    <li>-0.00 元</li>
+                    <li>-0.00 元</li>
+                    <li>-0.00 元</li>
+                    <li>0.00 元</li>
+                    <li class="purchas-outOfPocket">596.00 元</li>
+                    <li>收货人：<span class="purchas-user"></span> <span class="purchas-phone"></span></li>
+                </ul>
+                <div class="purch-btn clearfix">
+                    <a href="#" title="提交订单" class="refer-btn">提交订单</a>
+                    <a href="./shopCart.html" title="返回购物车修改" class="amend-btn">返回购物车修改</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="lkq-footer">
+        <div class="lkq-Layout clearfix">
+            <a href="###" title="道聚城" class="lkq-footer-djc">
+                <img src="images/footer/01.png" alt="">
+            </a>
+            <ul class="lkq-footer-info">
+                <li>
+                    <a href="###">
+                        <span class="lkq-ic01 lkq-comm-top"></span>
+                        配送方式
+                    </a>
+                </li>
+                <li>
+                    <a href="###">
+                        <span class="lkq-ic02 lkq-comm-top"></span>
+                        常见操作
+                    </a>
+                </li>
+                <li>
+                    <a href="###">
+                        <span class="lkq-ic03 lkq-comm-top"></span>
+                        售后服务
+                    </a>
+                </li>
+                <li>
+                    <a href="###">
+                        <span class="lkq-ic04 lkq-comm-top"></span>
+                        关于我们
+                    </a>
+                </li>
+                <li>
+                    <a href="###">
+                        <span class="lkq-ic05 lkq-comm-top"></span>
+                        购物指南
+                    </a>
+                </li>
+            </ul>
+            <ul class="lkq-footer-code">
+                <li>
+                    <img src="images/footer/02.jpg" alt="">
+                    <p>聚城品公众号</p>
+                </li>
+                <li>
+                    <img src="images/footer/03.jpg" alt="">
+                    <p>道聚城公众号</p>
+                </li>
+                <li class="lkq-pr0">
+                    <img src="images/footer/04.png" alt="">
+                    <p>掌上道聚城</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 版权 -->
+    <div class="lkq-footer_ied">
+        <div class="lkq-ied">
+            <p>
+                <a href="###">腾讯互动娱乐</a>
+                |
+                <a href="###"> 服务条款</a>
+                |
+                <a href="###"> 腾讯游戏隐私保护指引</a>
+                |
+                <a href="###"> 广告服务</a>
+                |
+                <a href="###"> 腾讯游戏招聘</a>
+                |
+                <a href="###"> 腾讯游戏客服</a>
+                |
+                <a href="###"> 游戏地图 </a>
+                |
+                <a href="###"> 成长守护平台 </a>
+                |
+                <a href="###"> 商务合作 </a>
+                |
+                <a href="###"> 网站导航 </a>
+            </p>
+            <p>COPYRIGHT © 1998 – 2019 TENCENT. ALL RIGHTS RESERVED.</p>
+            <p>
+                <a href="###">腾讯公司 版权所有</a>
+            </p>
+        </div>
+    </div>
+    <!-- 登陆模板 -->
+    <div class="lkq-login">
+        <div class="lkq-login_1">
+            <div class="lkq-login-btn">
+                <button class="lkq-btn1 lkq-btn">登陆</button>
+                <button class="lkq-btn2 lkq-btn">注册</button>
+                <button class="lkq-btn3">X</button>
+            </div>
+            <div class="lkq-form">
+                <span>昵称密码登陆</span>
+                <h4 class="lkq-con1"></h4>
+                <div class="lkq-box">
+                    <input type="text" class="lkq-text lkq-user1" placeholder="昵称">
+                </div>
+                <div class="lkq-box">
+                    <input type="text" class="lkq-text lkq-pass1" placeholder="密码">
+                </div>
+                <div class="lkq-remember">
+                    记住密码 <input type="checkbox" name="sub" class="lkq-check"><br>
+                </div>
+                <input type="button" value="登陆" name="login" class="lkq-lands">
+            </div>
+            <div class="lkq-register">
+                <span>输入昵称密码注册</span>
+                <h4 class="lkq-con2"></h4>
+                <div class="lkq-box">
+                    <input type="text" class="lkq-text lkq-user2" placeholder="昵称">
+                </div>
+                <div class="lkq-box">
+                    <input type="text" class="lkq-text lkq-pass2" placeholder="密码">
+                </div>
+                <input type="button" value="注册" name="add" class="lkq-reg">
+            </div>
+        </div>
+    </div>
+
+    <div class="shippingAddress">
+        <!-- 地址弹出框 -->
+        <span class="shippingAddress-omit">×</span>
+        <div class="shipAddress-main">
+            <h4>新增收货地址(<span class="xingxing"> * </span>为必填项)</h4>
+            <div class="shipAddress-form">
+                <h5 class="shipAddress-hint"></h5>
+                <form action="">
+                    <p>
+                        <label for="" class="form-labSjr"><span class="xingxing"> * </span>收件人</label>
+                        <input type="text" placeholder="收件人" class="form-iptSjr form-iptShjr">
+                    </p>
+                    <p>
+                        <label for="" class="form-labDq"><span class="xingxing">*</span>所在地区</label>
+                        <span class="selected1 selected" data-num="1">请选择</span>
+                        <span class="selected2 selected" data-num="2">请选择</span>
+                        <span class="selected3 selected" data-num="3">请选择</span>
+                    </p>
+                    <p>
+                        <label for="" class="form-labDz"><span class="xingxing">*</span>收件人地址</label>
+                        <input type="text" placeholder="收件人地址" class="form-iptSjr form-iptDz">
+                    </p>
+                    <p>
+                        <label for="" class="form-labHm"><span class="xingxing">*</span>手机号码</label>
+                        <input type="text" placeholder="手机号码" class="form-iptTo form-iptSj">
+                        <label for="" class="form-labDh">固定电话</label>
+                        <input type="text" placeholder="固定电话" class="form-iptTo form-iptDh">
+                    </p>
+                    <p>
+                        <label for="" class="form-labYb">邮政编码</label>
+                        <input type="text" placeholder="邮政编码" class="form-iptTo form-iptYb">
+                    </p>
+                </form>
+                <div class="shipAddress-region">
+                    <span class="region">确认</span>
+                </div>
+            </div>
+        </div>
+        <div class="district1 district" data-num="1">
+            <ul>
+                <li>广东</li>
+                <li>北京</li>
+                <li>天津</li>
+                <li>河北</li>
+                <li>山西</li>
+                <li>内蒙古</li>
+                <li>辽宁</li>
+                <li>吉林</li>
+                <li>黑龙江</li>
+                <li>上海</li>
+                <li>江苏</li>
+                <li>浙江</li>
+                <li>安徽</li>
+                <li>福建</li>
+                <li>江西</li>
+                <li>山东</li>
+                <li>河南</li>
+                <li>湖北</li>
+                <li>湖南</li>
+                <li>广西</li>
+                <li>海南</li>
+                <li>重庆</li>
+                <li>四川</li>
+                <li>贵州</li>
+                <li>云南</li>
+                <li>西藏</li>
+                <li>陕西</li>
+                <li>甘肃</li>
+                <li>青海</li>
+                <li>宁夏</li>
+                <li>新疆</li>
+            </ul>
+        </div>
+        <div class="district2 district" data-num="2">
+            <ul>
+                <li>深圳</li>
+                <li>广州</li>
+                <li>韶关</li>
+                <li>珠海</li>
+                <li>汕头</li>
+                <li>佛山</li>
+                <li>江门</li>
+                <li>湛江</li>
+                <li>茂名</li>
+                <li>肇庆</li>
+                <li>惠州</li>
+                <li>梅州</li>
+                <li>汕尾</li>
+                <li>河源</li>
+                <li>阳江</li>
+                <li>清远</li>
+                <li>东莞</li>
+                <li>中山</li>
+                <li>潮州</li>
+                <li>揭阳</li>
+                <li>云浮</li>
+            </ul>
+        </div>
+        <div class="district3 district" data-num="3">
+            <ul>
+                <li>宝安区</li>
+                <li>罗湖区</li>
+                <li>福田区</li>
+                <li>南山区</li>
+                <li>龙岗区</li>
+                <li>盐田区</li>
+                <li>龙华区</li>
+                <li>坪山区</li>
+                <li>光明区</li>
+            </ul>
+        </div>
+    </div>
+
+    <!--提示弹出框 -->
+    <div class="alert_panel">
+        <div class="alert_panelTop">
+            <h5>温馨提示</h5>
+            <span class="alert_panelOmit">×</span>
+        </div>
+        <div class="alert_panelBottom">
+            <p>请先选择你的收货地址~</p>
+            <span class="alert_panelAffirm">确定</span>
+        </div>
+    </div>
+
+</body>
+<script src="./js/jquery.min.js"></script>
+<script src="js/lkq-ajax-cookie.js"></script>
+<script src="./js/settleAccounts.js"></script>
+<script src="./js/lkq-common.js"></script>
+
+</html>
